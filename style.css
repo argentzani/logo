@@ -1,0 +1,29 @@
+.header{
+    background-image: url("images/header-bg.jpg");
+}
+
+.bottom-bar{
+    border-top: 1px solid #999999;
+}
+
+.kerko{
+    border: none !important;
+}
+
+.kategori{
+    background-color: #000;
+    color: #fff;
+}
+
+.kategori-item-image{
+    border-radius: 10px !important;
+}
+
+.kategori-item-title{
+    display: inline;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
