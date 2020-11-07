@@ -1,29 +1,67 @@
+a{
+    text-decoration: none !important;
+}
+
+
+
+.rmp{
+    margin:0 ! important;
+    padding:0 ! important;
+}
+
+.rm{
+    margin: 0 !important;
+}
+
+.rp{
+    padding: 0 !important;
+}
+
 .header{
     background-image: url("images/header-bg.jpg");
+    color: #ffffff;
 }
 
 .bottom-bar{
-    border-top: 1px solid #999999;
-}
-
-.kerko{
-    border: none !important;
+    text-align: center;
 }
 
 .kategori{
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
 }
 
-.kategori-item-image{
-    border-radius: 10px !important;
+.kategori-item{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 60px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
-.kategori-item-title{
-    display: inline;
+.kategori-icon{
+    background: blue;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.kategori-icon-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: red;
 }
 
 .footer{
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
 }
